@@ -459,6 +459,15 @@ footer .logo-mdl{
         padding: 5px 3px;
         margin-bottom: 10px;
     }
+    .erro-x{
+        font-size: 90px;
+        color: #c73636;
+    }
+    .erro-title{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
 }
 @media (max-width: 375px)
 {
@@ -576,6 +585,15 @@ footer .logo-mdl{
         border: 1px solid black;
         padding: 5px 3px;
         margin-bottom: 10px;
+    }
+    .erro-x{
+        font-size: 90px;
+        color: #c73636;
+    }
+    .erro-title{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
     }
 }
 
@@ -697,6 +715,15 @@ footer .logo-mdl{
         border: 1px solid black;
         padding: 5px 3px;
         margin-bottom: 10px;
+    }
+    .erro-x{
+        font-size: 90px;
+        color: #c73636;
+    }
+    .erro-title{
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
     }
 }
 @media (min-width: 425px)
