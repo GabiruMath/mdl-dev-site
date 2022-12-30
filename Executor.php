@@ -3,9 +3,9 @@
     class Executor
     {
         private $host = 'localhost';
-        private $dbName = 'mdl_dev_db';
-        private $dbUser = 'root';
-        private $dbPass = '';
+        private $dbName = 'u118049546_mdl_dev_db';
+        private $dbUser = 'u118049546_mdl_dev_admin';
+        private $dbPass = 'Mdldev66';
 
         private $pdo;
 
