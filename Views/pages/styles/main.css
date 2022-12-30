@@ -1,0 +1,712 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+body{
+    background-color: #e7e7e7;
+    font-family: 'Lato', sans-serif;
+    
+}
+h1{
+    font-size: medium;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.link{
+    color: white;
+}
+header{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    box-shadow: 3px 3px 5px #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    border-bottom: 1px solid #616161;
+}
+.logo-mdl{
+    width: 100px;
+    height: 50px;
+}
+.main-banner{
+    background-image: url('../../../Images/banner1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hue;
+    width: 100%;
+    height: 700px;
+}
+.banner-container{
+    width: 100%;
+    height: 100%;
+    padding: 0px 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: left;
+
+}
+.banner-title{
+    font-size: 50px;
+    user-select: none;
+    margin-bottom: 10%;
+    text-shadow: 2px 2px 7px black;
+
+}
+.banner-text{
+    font-size: 30px;
+    user-select: none;
+    text-shadow: 2px 3px 5px black;
+    margin-bottom: 10%;
+    
+}
+.diferenciais-box .btn{
+    margin-bottom: 5%;
+}
+.btn{
+    padding: 15px 20px;
+    background-color: #2b2bdf;
+    border-radius: 15px;
+    box-shadow: 2px 4px 5px rgb(36, 35, 35);
+    font-size: 20px;
+    user-select: none;
+}
+.diferenciais{
+    width: 100%;
+    height: 700px;
+}
+.diferenciais-box{
+    padding: 0px 11%;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.boxes{
+    display: flex;
+    
+
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.box{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    user-select: none;
+    height: max-content;
+    
+}
+.section-title{
+    font-size: 50px;
+    user-select: none;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.icon-title{
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.icon-text{
+    font-size: 17px;
+}
+.credibilidade{
+    width: 100%;
+    height: 700px;
+    background-image: url("../../../Images/banner2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.credibilidade-box{
+    padding: 0px 11%;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.credibilidade-box .banner-title{
+    text-shadow: 2px 3px 6px black;
+    margin-bottom: 3%;
+}
+.beneficios{
+    width: 100%;
+    height: 1000px;
+    padding-bottom: 10%;
+}
+.beneficios-box{
+    width: 100%;
+    height: 100%;
+    padding: 0 11%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.explicacao{
+    width: 100%;
+    height: 700px;
+    background-image: url('../../../Images/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.explicacao-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0 11%;
+    flex-direction: column;
+    justify-content: center;
+}
+.servicos{
+    width: 100%;
+    height: 700px;
+}
+.servicos-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0 11%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3%;
+}
+.servicos-box > .banner-title{text-shadow: none;}
+
+.servicos-list{
+    list-style: none;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.servicos-list-item{
+    margin: 0 5%;
+    font-size: 25px;
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 150px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+}
+.contato-container{
+    width: 100%;
+    /* background-image: url('../../../Images/backContato.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn; */
+    height: max-content;
+    padding: 5% 11%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contato-container .section-title{
+    margin: 0;
+    text-align: center;
+}
+.contato-formulario{
+    width: 70%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 10);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 10px;
+    box-shadow: 2px 1px 5px black;
+}
+.contato-formulario .section-title{
+    font-size: 30px;
+}
+
+.contato-formulario .btn{
+    color: white;
+    width: max-content;
+    font-size: 15px;
+    margin: 0 auto;
+    border: none;
+    transition: 1.5s;
+    box-shadow: none;
+    text-align: center;
+}
+.contato-formulario .btn:hover{
+    background-color: #101083;
+    cursor: pointer;
+    transition: 1.5s;
+    box-shadow: 1px 1px 4px #e7e7e7;
+}
+.contato-formulario .btn:disabled{
+    background-color: #525252;
+    cursor: pointer;
+    transition: 1.5s;
+    box-shadow: 1px 1px 4px #e7e7e7;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input[type=text], input[type=email]{
+    border-radius: 3px;
+    height: 70px;
+    background-color: #f3f3f3;
+    border: 1px solid black;
+    padding: 5px 3px;
+    margin-bottom: 10px;
+}
+input[type=radio]{
+    height: 15px;
+    width: 15px;
+}
+
+textarea{
+    resize: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    border: 1px solid black;
+    padding: 3px 2px;
+}
+
+.form-image{
+    width: 50%;
+    height: 440px;
+    box-shadow: 2px 1px 6px black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+footer{ 
+    width: 100%;
+    height: 6%;
+    background-color: white;
+    box-shadow: 3px 3px 5px #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    border-bottom: 1px solid #616161;
+}
+footer .logo-mdl{
+    width: 70px;
+    height: 35px;
+}
+.erro-container{
+    width: 100%;
+    height: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.erro-x{
+    font-size: 90px;
+    color: #c73636;
+}
+.erro-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+@media (max-width: 320px)
+{
+    header{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-mdl{
+        height: 40px;
+    }
+    .main-banner{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+    }
+    .main-banner .banner-container .banner-title{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .main-banner .banner-container .banner-text{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .diferenciais{
+        height: max-content;
+    }
+
+    .diferenciais-box .section-title{
+        font-size: 30px;
+    }
+    .boxes{
+        flex-wrap: wrap;
+    }
+
+    .credibilidade{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .credibilidade-box{
+        display: flex;
+        justify-content: center;
+    }
+    .credibilidade-box .banner-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .credibilidade-box .banner-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .beneficios{
+        height: max-content;
+    }
+    .beneficios-box .section-title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .explicacao{
+        height: max-content;
+    }
+    .explicacao-box .banner-title{
+        font-size: 30px;
+    }
+    .explicacao-box .banner-text{
+        font-size: 20px;
+    }
+
+    .servicos{
+        height: max-content;
+    }
+    .servicos-box .banner-title{
+        font-size: 30px;
+    }
+    .servicos-list{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .servicos-list-item{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contato-formulario{
+        width: 100%;
+        height: max-content;
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+    }
+    .contato-container{
+        flex-direction: column;
+    }
+    .form-image{
+        width: 100%;
+        height: 50%;
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    textarea{
+        height: 100px;
+    }
+    input[type=text], input[type=email]{
+        border-radius: 3px;
+        height: 30px;
+        background-color: #f3f3f3;
+        border: 1px solid black;
+        padding: 5px 3px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 375px)
+{
+    header{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-banner{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+    }
+    .main-banner .banner-container .banner-title{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .main-banner .banner-container .banner-text{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .diferenciais{
+        height: max-content;
+    }
+
+    .diferenciais-box .section-title{
+        font-size: 30px;
+    }
+    .boxes{
+        flex-wrap: wrap;
+    }
+
+    .credibilidade{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .credibilidade-box{
+        display: flex;
+        justify-content: center;
+    }
+    .credibilidade-box .banner-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .credibilidade-box .banner-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .beneficios{
+        height: max-content;
+    }
+    .beneficios-box .section-title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .explicacao{
+        height: max-content;
+    }
+    .explicacao-box .banner-title{
+        font-size: 30px;
+    }
+    .explicacao-box .banner-text{
+        font-size: 20px;
+    }
+
+    .servicos{
+        height: max-content;
+    }
+    .servicos-box .banner-title{
+        font-size: 30px;
+    }
+    .servicos-list{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .servicos-list-item{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .contato-formulario{
+        width: 100%;
+        height: max-content;
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+    }
+    .contato-container{
+        flex-direction: column;
+    }
+    .form-image{
+        width: 100%;
+        height: 50%;
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    textarea{
+        height: 100px;
+    }
+    input[type=text], input[type=email]{
+        border-radius: 3px;
+        height: 30px;
+        background-color: #f3f3f3;
+        border: 1px solid black;
+        padding: 5px 3px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 425px)
+{
+    header{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-banner{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+    }
+    .main-banner .banner-container .banner-title{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .main-banner .banner-container .banner-text{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .diferenciais{
+        height: max-content;
+    }
+
+    .diferenciais-box .section-title{
+        font-size: 30px;
+    }
+    .boxes{
+        flex-wrap: wrap;
+    }
+
+    .credibilidade{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .credibilidade-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .credibilidade-box .banner-title{
+        font-size: 30px;
+        text-align: center;
+    }
+    .credibilidade-box .banner-text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .beneficios{
+        height: max-content;
+    }
+    .beneficios-box .section-title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .explicacao{
+        height: max-content;
+    }
+    .explicacao-box .banner-title{
+        font-size: 30px;
+    }
+    .explicacao-box .banner-text{
+        font-size: 20px;
+    }
+
+    .servicos{
+        height: max-content;
+    }
+    .servicos-box .banner-title{
+        font-size: 30px;
+    }
+    .servicos-list{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .servicos-list-item{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .contato-formulario{
+        width: 100%;
+        height: max-content;
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        text-align: center;
+    }
+    .contato-container{
+        flex-direction: column;
+    }
+    .form-image{
+        width: 100%;
+        height: 50%;
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    textarea{
+        height: 100px;
+    }
+    input[type=text], input[type=email]{
+        border-radius: 3px;
+        height: 30px;
+        background-color: #f3f3f3;
+        border: 1px solid black;
+        padding: 5px 3px;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 425px)
+{
+    header{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
